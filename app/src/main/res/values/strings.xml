@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MiniGtApp</string>
+    <string name="nama_profile">Oeng David santoso</string>
+    <string name="minigtapp">MiniGtapp</string>
+    <string name="product_name">Product Name:</string>
+    <string name="name">name</string>
+    <string name="product_price">Product price:</string>
+    <string name="price">price</string>
+    <string name="status">Status:</string>
+    <string name="stats">status</string>
+    <string name="product_scale">Product scale:</string>
+    <string name="_1_64">1/64</string>
+    <string name="description">Description</string>
+    <string name="desc">desc</string>
+    <string name="buy">buy</string>
+    <string name="favorite">favorite</string>
+    <string name="nama_diecast">Nama Diecast</string>
+    <string name="harga">Harga</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="following">Following</string>
+    <string name="_100">100</string>
+    <string name="followers">Followers</string>
+    <string name="_120">120</string>
+    <string name="favorites">Favorites</string>
+    <string name="_5">5</string>
+    <string name="email">a0050490@bangkit.academy</string>
+    <string name="PhoneNumber">082298880192</string>
+    <string name="davidsantosooo">davidsantosooo</string>
+    <string name="jedm_garage">Jedm Garage</string>
+</resources>

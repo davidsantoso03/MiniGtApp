@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mytoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/gradientbackground"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/match_layout"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            style="@style/wrap_layout"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="8sp"
+            android:text="@string/minigtapp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/profile_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="240dp"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

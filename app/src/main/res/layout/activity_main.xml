@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/match_layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbar" />
+
+    <ScrollView
+        style="@style/default_layout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_diecast"
+            style="@style/default_layout"
+            tools:listitem="@layout/item_row_layout" />
+    </ScrollView>
+</LinearLayout>
